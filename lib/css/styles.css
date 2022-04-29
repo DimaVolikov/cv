@@ -1,0 +1,13 @@
+body {background-color: #5dcee2;
+display: flex;
+justify-content: center;
+}
+main {
+margin-top: 5%; 
+margin-bottom: 15%;      
+background-color: rgb(255, 255, 255);
+width: 210mm;
+height: 297mm;
+
+}
+
