@@ -1,175 +1,124 @@
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+b {
+  font-weight: 700;
+}
+
 body{
-    background-color: #d2dde4;
-    display: flex;
-    justify-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
- }
- 
- main{
-    background-color: rgb(12, 12, 12);
-    margin-top: 15%;
-    margin-bottom: 15%;
-    width: 215mm;
-    height: 295mm;
-    padding: 10px 50px;
- }
- 
- header{
-    border-bottom: 2px solid rgb(233, 0, 0);
- }
- 
- h5, p {
-    margin: 0;
-  }
-  
-  
-  .head-section {
-    width: 100%;
-    padding: 25px 0;
-    border-bottom: 5px solid rgba(179, 16, 255, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .head-boxes > h1 {
-    margin: 0;
-    font-weight: normal;
-    font-size: 50px;
-    margin-bottom: 15px;
-    color: #ffffff;
-  }
-  
-  .head-boxes > h3 {
-    font-weight: normal;
-    font-size: 35px;
-    opacity: 0.9;
-    margin-bottom: 10px;
-  }
-  
-  .head-boxes > p {
-    margin: 0;
-    opacity: 0.5;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  .head-boxes > img {
-    max-height: 300px;
-    margin-right: 10px;
-    border-radius: 100px;
-  }
-  .head-boxes{
-  margin-left: 10px;
-  color: blueviolet;
-  }
-  .content {
-    width: 100%;
-    height: calc(100% - 200px);
-    /* background-color: orange; */
-    display: flex;
-  }
-  
-  .content > section {
-    height: 100%;
-  }
-  
-  .content-section-left {
-    margin-left: 1px;
-    width: 100%;
-    color: blue;
-    }
-  
-  .content-section-left ul {
-    padding: 16px;
-  }
-  
-  .content-section-left li {
-    list-style-type: "";
-    line-height: 1.5;
-    font-size: 17px;
-  }
-  
-  .content-section-left h4 {
-      font-size: 20px;
-      margin-bottom: -20px;
-    }
-  
-  .content-section-left p {
-      font-size: 10px;
-      margin-bottom: 0px;
-  }
-  
-  footer.contacts > a {
-    color: rgb(255, 0, 0);
-    text-decoration-style: solid;
-    font-size: 20px;
-    margin-bottom: 0px;
-    }
-  
-  
-  .contacts {
-    margin-top: 400px;
-    font-size: 20px;
-  }
-  
-  .content-section-right {
-    width: 90%;
-    color: blue;
-  }
-  .content-section-right p {
-    font-size: 20px;
-  }
-  
-  .section-title {
-    opacity: 0.6;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    font-size: 40px;
-    color: #ff0da2;
-  }
-  
-  .section-subtitle {
-    opacity: 0.5;
-    font-size: 15px;
-    margin-top: 5px;
-  }
-  
-  .section-subtitle_underlined {
-    opacity: 0.5;
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-decoration: underline;
-  }
-  
-  .experience-item {
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-  
-  .experience-item:last-of-type {
-    margin-bottom: 100px;
-  }
-  
-  .description {
-    font-size: 15px;
-    margin-bottom: 5px;
-  }
-  
-  .skills {
-    margin-top: 50px;
-  }
-  
-  .achiv {
-    margin-top: 55px;
-  }
-  
-  table {
-    width: 100%;
-  
-  }
-    table td {
-      padding: 0px;
-      
-    }
+  font-family: 'Raleway', sans-serif;
+  background-color: #75a6b1;
+  color: rgb(164, 178, 238);
+}
+
+.main {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: rgb(250, 250, 250);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 270px;
+}
+
+/* .header__photo {
+} */
+
+.photo {
+  width: 17%;
+}
+
+.header__title{
+  width: 70%;
+  text-align: center;
+}
+
+.header__title__main{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing:2px;
+}
+
+.header__title__text{
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing:3px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(77, 90, 146);
+}
+
+.social__icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.social__text {
+ color: rgb(253, 253, 253);
+ margin-left: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  /* height: 1000px; */
+}
+
+.sidebar {
+  width: 30%;
+  background: rgb(20, 25, 26);
+  padding-bottom: 40px;
+}
+
+.sidebar_blocks {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0px 40px;
+  gap: 20px;
+}
+
+.sidebar__headers {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  border-bottom: 3px solid rgba(88, 0, 252, 0.425);
+}
+
+.sidebar_items {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.content__main {
+  width: 70%;
+  padding: 0 40px 40px 0;
+}
+
+ul {
+list-style-type: disc;
+list-style-position: inside;
+line-height: 30px;
+margin-bottom: 20px;
+}
+
+.experience__header {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
